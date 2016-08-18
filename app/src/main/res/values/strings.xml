@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Tourist Guide</string>
+    <string name="settings_textview">Settings</string>
+    <string name="choose_lang_text">English</string>
+    <string name="choose_lang_text_fr">français</string>
+    <string name="english_language">en</string>
+    <string name="french_language">fr</string>
+    <string name="next_button">Next</string>
+    <string name="pashima_details">A pashmina can be used for many things while travelling.
+        Ladies can use it to cover up in Middle Eastern countries or churches and temples.
+        Men can use it to cover their heads on hot days.
+        It can be used as a pillowcase or blanket, a top or a skirt.</string>
+    <string name="info_details_pashima">Details</string>
+    <string name="welcome_message">Welcome to Tourist Guide.
+        Click Next for useful information about travelling prepared</string>
 </resources>

@@ -1,16 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+
+<FrameLayout 
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.android.touristguide.MainActivity">
 
-    <TextView
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tourist_homepage" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:id="@+id/choose_lang">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/en_textview"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="30dp"
+                style="@style/textview_style"
+                android:text="@string/choose_lang_text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/en_textview"
+                android:text="@string/choose_lang_text_fr"
+                style="@style/textview_style"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="50dp" />
+        </LinearLayout>
+
+
+        <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+            android:orientation="horizontal"
+            android:layout_below="@id/choose_lang"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/cardview_shadow_end_color">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/english_language"
+                android:id="@+id/en_radio_button"
+                style="@style/textview_style"
+                android:scaleX="1.2"
+                android:scaleY="1.2"
+                android:onClick="onRadioButtonClicked"
+                android:background="@android:color/holo_green_dark" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/french_language"
+                android:id="@+id/fr_radio_button"
+                style="@style/textview_style"
+                android:scaleX="1.2"
+                android:scaleY="1.2"
+                android:onClick="onRadioButtonClicked"
+                android:background="@android:color/holo_green_dark"
+                android:layout_marginLeft="90dp" />
+        </RadioGroup>
+    </RelativeLayout>
+</FrameLayout>
