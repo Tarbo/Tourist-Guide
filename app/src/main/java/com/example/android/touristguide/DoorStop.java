@@ -6,13 +6,12 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class FiveItemsActivity extends AppCompatActivity {
+public class DoorStop extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_five_items);
-        Intent intent = getIntent();
+        setContentView(R.layout.activity_door_stop);
     }
 
     /*
@@ -20,10 +19,10 @@ public class FiveItemsActivity extends AppCompatActivity {
     * @params, take View as the only paramter
     * @returns, returns nothing
      */
-    public void onClickPashminaDetails(View view) {
+    public void onClickDoorStopDetails(View view) {
         Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
-        String searchPashmina = getString(R.string.search_pashmina);
-        intent.putExtra(SearchManager.QUERY, searchPashmina);
+        String searchDoorStop = getString(R.string.search_door_stop);
+        intent.putExtra(SearchManager.QUERY, searchDoorStop);
         startActivity(intent);
     }
 
@@ -31,7 +30,7 @@ public class FiveItemsActivity extends AppCompatActivity {
     * Responds to next button click and fires up the next activity
      */
     public void onNextButtonClicked(View view) {
-        Intent intent = new Intent(this, HeadLampActivity.class);
+        Intent intent = new Intent(this, WaterFilter.class);
         startActivity(intent);
     }
 }

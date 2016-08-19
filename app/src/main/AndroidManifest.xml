@@ -17,7 +17,11 @@
         </activity>
         <activity android:name=".EnWelcomePageActivity" />
         <activity android:name=".FrWelcomePageActivity" />
-        <activity android:name=".FiveItemsActivity"></activity>
+        <activity android:name=".FiveItemsActivity" />
+        <activity android:name=".HeadLampActivity" />
+        <activity android:name=".DryLiteTowelActivity" />
+        <activity android:name=".WaterFilter" />
+        <activity android:name=".DoorStop"></activity>
     </application>
 
 </manifest>

@@ -10,7 +10,49 @@
         Ladies can use it to cover up in Middle Eastern countries or churches and temples.
         Men can use it to cover their heads on hot days.
         It can be used as a pillowcase or blanket, a top or a skirt.</string>
-    <string name="info_details_pashima">Details</string>
+    <string name="head_lamp_details">A headlamp is good to bring on any trip.
+        You can use it on night walks or for reading on an overnight train ride.
+        A headlamp also makes activities like climbing,
+        biking and hiking possible in the dark.</string>
+    <string name="dry_lite_towel_details">It is the fastest drying towel you will ever own
+        and it isn’t bulky like a typical towel,
+        giving you more space to pack other things.
+        It may cost a bit more than a regular towel,
+        but trust me when I tell you that it will become
+        one of your favourite items to pack for your travels.</string>
+    <string name="water_filter_details">
+        Tap water may be okay for the locals but undrinkable for a foreigner.
+        That is because the water in your country has different bacteria than those in other areas
+        and your body isn’t immune to the unfamiliar strains.
+        That is why it is often recommended to drink bottled water when travelling.
+        However, this can get costly.
+        That is why investing in a water filtration pump is a great way to save money
+        and drink clean filtered water wherever you go.
+    </string>
+    <string name="door_stop_details">
+        What could you possibly use a doorstop for on your travels?
+        The answer is for your own safety.
+        Even if you are staying in a nice-looking hostel, guesthouse or hotel room,
+        it’s never a bad idea to be extra cautious of your stuff and,
+        more importantly, your own safety.
+        Wedging a doorstop in your room’s door before heading to bed
+        will allow you to detect if anyone is trying to enter your room while you are sleeping.
+    </string>
+    <string name="info_details_button">Details</string>
     <string name="welcome_message">Welcome to Tourist Guide.
-        Click Next for useful information about travelling prepared</string>
+        Click Next for your must have five items for your trip</string>
+
+    <string name="search_pashmina">Pashmina Scarf</string>
+    <string name="search_headlamp">Head Lamp</string>
+    <string name="search_dry_lite_towel">Dry Lite Towel</string>
+    <string name="search_water_filter">Portable Water Filter</string>
+    <string name="search_door_stop">Door Stop</string>
+
+    <string name="pashmina_name">1. Pashmina</string>
+    <string name="head_lamp_name">2. Head Lamp</string>
+    <string name="dry_lite_towel_name">3. Dry Lite Towel</string>
+    <string name="water_filter_name">4. Water Filter</string>
+    <string name="door_stop_name">5. Door Stop</string>
+
+
 </resources>
