@@ -30,7 +30,7 @@ public class DoorStop extends AppCompatActivity {
     * Responds to next button click and fires up the next activity
      */
     public void onNextButtonClicked(View view) {
-        Intent intent = new Intent(this, WaterFilter.class);
+        Intent intent = new Intent(this, FeedbackActivity.class);
         startActivity(intent);
     }
 }

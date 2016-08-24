@@ -53,6 +53,15 @@
     <string name="dry_lite_towel_name">3. Dry Lite Towel</string>
     <string name="water_filter_name">4. Water Filter</string>
     <string name="door_stop_name">5. Door Stop</string>
-
-
+    <string name="feedback_textview">
+        Thank you for using the app.
+        Take a moment to improve the app by giving us your feedback and suggestion.
+    </string>
+    <string name="contact_name_hint">Enter name:</string>
+    <string name="enter_email_hint">Enter your email:</string>
+    <string name="rating_message">Rate the app!</string>
+    <string name="main_message_hint">Enter your feedback here:</string>
+    <string name="send_button_name">Send</string>
+    <string name="email_address">mellitus2005@yahoo.com</string>
+    <string name="feedback_email_subject">Feedback from</string>
 </resources>

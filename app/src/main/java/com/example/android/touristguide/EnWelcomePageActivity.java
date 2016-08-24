@@ -11,8 +11,6 @@ public class EnWelcomePageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_en_welcome_page);
-        Intent intent = getIntent();
-        //startActivity(intent);
     }
 
     public void onNextButtonClicked(View view) {
