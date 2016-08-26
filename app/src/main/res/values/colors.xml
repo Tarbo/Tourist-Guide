@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#9c27b0</color>
+    <color name="colorPrimaryDark">#e65100</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="door_stop_item">#795548</color>
+    <color name="head_lamp">#ff6f00</color>
+    <color name="dry_lite_towel">#76ff03</color>
+    <color name="water_filter">#004d40</color>
+    <color name="pashmina">#4a148c</color>
+    <color name="feedback_color">#880e4f</color>
+    <color name="welcome_page">#0091ea</color>
+    <color name="background_colour">#bcaaa4</color>
+    <color name="text_color">#ffffff</color>
 </resources>

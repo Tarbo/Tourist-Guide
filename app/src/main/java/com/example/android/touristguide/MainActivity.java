@@ -32,13 +32,6 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intent);
                     break;
                 }
-            case R.id.fr_radio_button:
-                if (checked) {
-                    // Displays welcome page in french
-                    Intent intent = new Intent(this, FrWelcomePageActivity.class);
-                    startActivity(intent);
-                    break;
-                }
         }
     }
 }

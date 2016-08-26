@@ -1,6 +1,5 @@
 package com.example.android.touristguide;
 
-import android.app.SearchManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -12,26 +11,42 @@ public class FiveItemsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_five_items);
-        Intent intent = getIntent();
     }
 
-    /*
-    * This function handles the details button
-    * @params, take View as the only paramter
-    * @returns, returns nothing
-     */
-    public void onClickPashminaDetails(View view) {
-        Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
-        String searchPashmina = getString(R.string.search_pashmina);
-        intent.putExtra(SearchManager.QUERY, searchPashmina);
-        startActivity(intent);
+    public void onClickPashmina(View view) {
+        Intent intent = new Intent(this, PashminaActivity.class);
+        if (intent.resolveActivity(getPackageManager()) != null)
+            startActivity(intent);
     }
 
-    /*
-    * Responds to next button click and fires up the next activity
-     */
-    public void onNextButtonClicked(View view) {
+    public void onClickHeadLamp(View view) {
         Intent intent = new Intent(this, HeadLampActivity.class);
-        startActivity(intent);
+        if (intent.resolveActivity(getPackageManager()) != null)
+            startActivity(intent);
     }
+
+    public void onClickDryLiteTowel(View view) {
+        Intent intent = new Intent(this, DryLiteTowelActivity.class);
+        if (intent.resolveActivity(getPackageManager()) != null)
+            startActivity(intent);
+    }
+
+    public void onClickWaterFilter(View view) {
+        Intent intent = new Intent(this, WaterFilter.class);
+        if (intent.resolveActivity(getPackageManager()) != null)
+            startActivity(intent);
+    }
+
+    public void onClickDoorStop(View view) {
+        Intent intent = new Intent(this, DoorStop.class);
+        if (intent.resolveActivity(getPackageManager()) != null)
+            startActivity(intent);
+    }
+
+    public void onClickFeedback(View view) {
+        Intent intent = new Intent(this, FeedbackActivity.class);
+        if (intent.resolveActivity(getPackageManager()) != null)
+            startActivity(intent);
+    }
+
 }

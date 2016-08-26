@@ -3,62 +3,67 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fadeScrollbars="true"
     tools:context="com.example.android.touristguide.FiveItemsActivity">
-
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
         android:orientation="vertical">
 
-        <RelativeLayout
+        <TextView
+            style="@style/five_items_textviw_style"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="20dp"
-                android:elevation="4dp"
-                android:scaleType="centerCrop"
-                android:id="@+id/pashmina_imageview"
-                android:src="@drawable/pashmina" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:fontFamily="?android:textAppearanceLarge"
-                android:text="@string/pashmina_name" />
-
-        </RelativeLayout>
+            android:layout_weight="1"
+            android:background="@color/pashmina"
+            android:onClick="onClickPashmina"
+            android:text="@string/pashmina_name" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"
-            android:elevation="4dp"
-            android:text="@string/pashima_details"
-            android:textSize="20sp" />
+            style="@style/five_items_textviw_style"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="onClickDoorStop"
+            android:background="@color/head_lamp"
+            android:text="@string/head_lamp_name" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="10dp"
-            android:drawableStart="@android:drawable/ic_menu_info_details"
-            android:onClick="onClickPashminaDetails"
-            android:text="@string/info_details_button" />
+        <TextView
+            style="@style/five_items_textviw_style"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="onClickDryLiteTowel"
+            android:background="@color/dry_lite_towel"
+            android:text="@string/dry_lite_towel_name" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:layout_marginEnd="16dp"
-            android:drawableStart="@android:drawable/ic_media_ff"
-            android:onClick="onNextButtonClicked"
-            android:text="@string/next_button" />
+        <TextView
+            style="@style/five_items_textviw_style"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="onClickWaterFilter"
+            android:background="@color/water_filter"
+            android:text="@string/water_filter_name" />
+
+        <TextView
+            style="@style/five_items_textviw_style"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="onClickDoorStop"
+            android:background="@color/door_stop_item"
+            android:text="@string/door_stop_name" />
+
+        <TextView
+            style="@style/five_items_textviw_style"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="onClickFeedback"
+            android:background="@color/feedback_color"
+            android:text="@string/feedback_name" />
     </LinearLayout>
 </ScrollView>

@@ -48,11 +48,12 @@
     <string name="search_water_filter">Portable Water Filter</string>
     <string name="search_door_stop">Door Stop</string>
 
-    <string name="pashmina_name">1. Pashmina</string>
-    <string name="head_lamp_name">2. Head Lamp</string>
-    <string name="dry_lite_towel_name">3. Dry Lite Towel</string>
-    <string name="water_filter_name">4. Water Filter</string>
-    <string name="door_stop_name">5. Door Stop</string>
+    <string name="pashmina_name">Pashmina</string>
+    <string name="head_lamp_name">Head Lamp</string>
+    <string name="dry_lite_towel_name">Dry Lite Towel</string>
+    <string name="water_filter_name">Water Filter</string>
+    <string name="door_stop_name">Door Stop</string>
+    <string name="feedback_name">Feedback</string>
     <string name="feedback_textview">
         Thank you for using the app.
         Take a moment to improve the app by giving us your feedback and suggestion.
