@@ -15,14 +15,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".EnWelcomePageActivity" />
-        <activity android:name=".FiveItemsActivity" />
-        <activity android:name=".HeadLampActivity" />
-        <activity android:name=".DryLiteTowelActivity" />
-        <activity android:name=".WaterFilter" />
-        <activity android:name=".DoorStop" />
-        <activity android:name=".FeedbackActivity" />
-        <activity android:name=".PashminaActivity"></activity>
+        <activity
+            android:name=".EnWelcomePageActivity"
+            android:label="Welcome" />
+        <activity
+            android:name=".FiveItemsActivity"
+            android:label="List of Items" />
+        <activity
+            android:name=".HeadLampActivity"
+            android:label="@string/head_lamp_name" />
+        <activity
+            android:name=".DryLiteTowelActivity"
+            android:label="@string/dry_lite_towel_name" />
+        <activity
+            android:name=".WaterFilter"
+            android:label="@string/water_filter_name" />
+        <activity
+            android:name=".DoorStop"
+            android:label="@string/door_stop_name" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:label="@string/feedback_name" />
+        <activity
+            android:name=".PashminaActivity"
+            android:label="@string/pashmina_name" />
     </application>
 
 </manifest>
